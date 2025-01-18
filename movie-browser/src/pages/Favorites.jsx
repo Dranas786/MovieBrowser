@@ -1,4 +1,6 @@
-function Favorite() {
+import "../css/Favorites.css";
+
+function Favorites() {
   return (
     <div className="favorites-empty">
       <h2>No Favorites</h2>
@@ -6,3 +8,5 @@ function Favorite() {
     </div>
   );
 }
+
+export default Favorites;
